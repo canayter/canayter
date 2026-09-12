@@ -2,34 +2,42 @@
 
 *[Bu sayfanın Türkçesi](README.tr.md)*
 
-I build small, focused tools rather than one big product — most of them live at [ayter.com](https://ayter.com), a few grew out of academic work (a Master's thesis on L2 Turkish vowel acquisition shows up in more than one of these), and none of them pretend to be more finished than they are. Below is what's actually built, actually live, and actually in each repo, grouped the same way they sit on the site itself.
+Computational linguist and data scientist. My graduate background is in linguistics — phonetics, typology, second language acquisition — and I pair that with hands-on ML engineering to build practical language tools. The projects below aren't a separate portfolio bolted onto a resume; they're mostly direct extensions of that background, plus a couple of things I just wanted to exist.
 
-## Language & linguistics
+## Background
 
-- **[Langram](https://github.com/canayter/langram)** — [ayter.com/langram](https://ayter.com/langram). A Turkish course for English speakers built around a real morphophonological engine: exercises are generated live from grammar rules in archiphoneme notation, not drawn from a fixed list, and no inflected Turkish word appears anywhere in the codebase outside the engine's own output.
-- **[Rosetta](https://github.com/canayter/rosetta)** — [ayter.com/rosetta](https://ayter.com/rosetta). An interactive map of 500+ world languages, typology, endangerment status, and mutual intelligibility, sourced from WALS, Ethnologue, Glottolog, and PHOIBLE.
-- **[Semaphore](https://github.com/canayter/semaphore)** — [ayter.com/semaphore](https://ayter.com/semaphore). Real-time ASL fingerspelling recognition in the browser (MediaPipe + a small ONNX classifier, ~99% validation accuracy on 39 classes), plus a Claude-assisted text-to-sign mode.
-- **[Cipher](https://github.com/canayter/cipher)** — [ayter.com/cipher](https://ayter.com/cipher). Translation between English, Turkish, German, French, and Spanish, with real part-of-speech tagging on both sides and a purpose-built Turkish morphological analyzer.
-- **[Timbre](https://github.com/canayter/timbre)** — [ayter.com/timbre](https://ayter.com/timbre). Grew out of a Master's thesis on how L1-English speakers acquire the Turkish vowel system. Currently a research writeup and a static cardinal-vowel reference chart; the live formant-extraction tool the page describes is the next step, not yet built.
+**Now:** Linguistic Engineer at Meta (via TEKsystems, since 2025 — Data Linguist through 2026, then Linguistic Engineer), evaluating and quality-checking Turkish-language outputs from multilingual AI models against the linguistic guidelines that shape their training data.
 
-## Body & mind
+**Before that:** freelance Turkish/English translation and interpretation (legal, medical, business — ongoing since 2015); four years as a cleared linguist for U.S. federal law enforcement (KACE Company, 2019-2023) doing translation, transcription, and simultaneous interpretation; a graduate assistantship at Indiana University (2013-2015) running phonetics research and large-scale speech data collection while teaching linguistics; and, earlier, a few years coaching strength and conditioning at health clubs in Chicago and Ankara — which is exactly where Iron comes from.
 
-- **[Iron](https://github.com/canayter/iron)** — [ayter.com/iron](https://ayter.com/iron). A training and nutrition platform — anatomy-linked exercise atlas, workout builder, macro planner, and a long tail of calculators, every one of them cited back to the study behind it.
-- **[Reverie](https://github.com/canayter/reverie)** — [ayter.com/reverie](https://ayter.com/reverie). Binaural beats, breathing protocols, and guided sessions narrated by a real embedded TTS voice, plus six meditation traditions explained on their own terms instead of flattened into generic "mindfulness."
-- **[Nous](https://github.com/canayter/nous)** — [ayter.com/nous](https://ayter.com/nous). Cognitive training grounded in named tasks — Raven's Matrices, Stroop, N-back, choice reaction time — plus an ADHD hub and a wellness screening that routes real crisis resources when it needs to, not just a results screen.
-- **[Forage](https://github.com/canayter/forage)** — [ayter.com/forage](https://ayter.com/forage). Log your pantry, get a recipe that fits your macros, diet, and allergies — either from a tagged preset list or invented on the spot by Claude, using your own API key. Shares nutrition data live with Iron rather than duplicating it.
+**Education:** M.A. in Linguistics, Indiana University (Central Eurasian Studies, Hamilton Lugar School), thesis on L2 Turkish vowel acquisition — *"Towards Accounting for L2 Accent: The Case of Turkish Vowel Space,"* an acoustic study of formant transfer in English speakers learning Turkish, advised by Dr. Öner Özçelik. An Erasmus exchange year at Uppsala University in Turkic linguistics and philology. B.A. in Linguistics from Hacettepe University. A Data Science & Visualization certificate from Northwestern, more recently.
 
-## Money
+The full resume, with dates and specifics, is at [ayter.com](https://ayter.com).
 
-- **Prudence** — [ayter.com/prudence](https://ayter.com/prudence). A cited, client-side guide to a few concrete money decisions: debt payoff order (avalanche vs. snowball), debt vs. invest, balance transfer and refinance math. (Repo is private.)
+## The Network
 
-## Entertainment & music
+Small, focused tools, most of them tracing back to something above rather than a business plan. What's actually built and live versus described-but-not-yet is called out plainly in each project's own README — not everything here is equally finished, since these are mostly built solo, alongside everything else.
 
-- **[Vault](https://github.com/canayter/vault)** — [ayter.com/vault](https://ayter.com/vault). Eight games in one neo-retro arcade shell — real classics (Snake, Tetris, Breakout, Solitaire, Mahjong, Pinball, Minesweeper) plus one joke original, a Florida-Man headline generator.
-- **[Cadence](https://github.com/canayter/cadence)** — [ayter.com/cadence](https://ayter.com/cadence). Turns Last.fm scrobble history into a proper threaded Bluesky post, with an optional self-hosted version that posts automatically every week.
+**Language & linguistics** — where the linguistics background shows up most directly:
+- **[Langram](https://github.com/canayter/langram)** ([live](https://ayter.com/langram)) — a Turkish course for English speakers, built on a real morphophonological engine: exercises are generated live from grammar rules, not drawn from a fixed list.
+- **[Rosetta](https://github.com/canayter/rosetta)** ([live](https://ayter.com/rosetta)) — an interactive map of 500+ world languages, typology, endangerment, and mutual intelligibility, sourced from WALS, Ethnologue, Glottolog, and PHOIBLE.
+- **[Semaphore](https://github.com/canayter/semaphore)** ([live](https://ayter.com/semaphore)) — real-time ASL fingerspelling recognition in the browser, plus a Claude-assisted text-to-sign mode.
+- **[Cipher](https://github.com/canayter/cipher)** ([live](https://ayter.com/cipher)) — translation across five languages with real part-of-speech tagging and a purpose-built Turkish morphological analyzer.
+- **[Timbre](https://github.com/canayter/timbre)** ([live](https://ayter.com/timbre)) — the direct continuation of the thesis above: a vowel-space research writeup and reference chart, with live formant extraction as the planned next step.
+
+**Body & mind** — where the coaching background shows up:
+- **[Iron](https://github.com/canayter/iron)** ([live](https://ayter.com/iron)) — a training and nutrition platform, every calculator cited back to the study behind it.
+- **[Reverie](https://github.com/canayter/reverie)** ([live](https://ayter.com/reverie)) — binaural beats, breathing protocols, and guided meditation across six traditions, explained on their own terms.
+- **[Nous](https://github.com/canayter/nous)** ([live](https://ayter.com/nous)) — cognitive training on named tasks (Raven's Matrices, Stroop, N-back), an ADHD hub, and a wellness screening with real crisis resources.
+- **[Forage](https://github.com/canayter/forage)** ([live](https://ayter.com/forage)) — an AI pantry companion that shares nutrition data live with Iron.
+
+**Money:**
+- **Prudence** ([live](https://ayter.com/prudence)) — a cited, client-side guide to debt payoff order, debt vs. invest, and refinance math. (Repo is private.)
+
+**Just for fun:**
+- **[Vault](https://github.com/canayter/vault)** ([live](https://ayter.com/vault)) — eight games in a neo-retro arcade shell, seven real classics plus one joke original.
+- **[Cadence](https://github.com/canayter/cadence)** ([live](https://ayter.com/cadence)) — turns Last.fm history into a threaded Bluesky post, with an optional self-hosted weekly auto-scheduler.
 
 ---
 
-Most of these are solo projects, built and maintained by one person, which means some are more finished than others — each repo's own README says plainly what's actually working versus what's described but not yet built, rather than presenting everything as equally done.
-
-**Can Ayter** — [ayter.com](https://ayter.com)
+**Can Ayter** — [ayter.com](https://ayter.com) · [LinkedIn](https://www.linkedin.com/in/canayter/)
